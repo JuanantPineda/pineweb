@@ -1,0 +1,40 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-es'
+title = 'PineWeb'
+theme = "m10c"
+paginate = 8
+
+[menu]
+  [[menu.main]]
+    identifier = "contacta"
+    name = "Conctacta"
+    url = "/contact/"
+    weight = 1
+  [[menu.main]]
+    identifier = "acerca"
+    name = "Acerca"
+    url = "/about/"
+    weight = 2
+
+[params]
+  author = "Juan Antonio Pineda Amador"
+  description = "Me gusta la informatica y los videojuegos"
+  avatar = "https://scontent.fsvq5-1.fna.fbcdn.net/v/t39.30808-6/366011815_611019254505592_5972345170541093607_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=WzK9UTQiNHsQ7kNvgGQ4Gw0&_nc_ht=scontent.fsvq5-1.fna&_nc_gid=AqHetAVBUOPGGNYQz8Dwy5U&oh=00_AYDwuWm_y2__4PPBlfrlRClv-johG10CdPweENsDoPpk5A&oe=670203BD"
+  favicon = "https://www.pngimages.in/uploads/png-webp/2022/2022-November/one_piece_Free_Image.webp"
+  menu_item_separator = " - "
+  [[params.social]]
+    icon = "github"
+    name = "Github"
+    url = "https://github.com/JuanantPineda"
+  [[params.social]]
+    icon = "twitter"
+    name = "Twitter"
+    url = "https://x.com/juanele2020"
+
+# Red theme
+  [params.style]
+    darkestColor = "#d35050"
+    darkColor = "#212121"
+    lightColor = "#d6d6d6"
+    lightestColor = "#d3d3d3"
+    primaryColor = "#ffffff"
